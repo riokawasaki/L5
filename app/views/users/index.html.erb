@@ -4,7 +4,6 @@
         パスワード :<%= e.pass %><br>
         <%=link_to '削除', "/users/#{e.id}", data: { turbo_method: :delete } %>
     </p>
-    <hr>
 <% end %>
 
 <%= link_to '新規追加', '/users/new' %>

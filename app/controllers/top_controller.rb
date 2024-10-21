@@ -36,6 +36,6 @@ class TopController < ApplicationController
       def destroy
         t = Tweet.find(params[:id])
         t.destroy
-        redirect_to top_path
+        redirect_to top_main_path
       end
 end
